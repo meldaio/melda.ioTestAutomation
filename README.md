@@ -8,17 +8,33 @@
 
 ## 📖 Overview
 This repository is dedicated to Melda.io's end-to-end (E2E) test automation, leveraging **Java**, **Selenium**, **TestNG**, and **Allure** to improve the efficiency and reliability of software testing.
-This repository is created as part of the **Techcareer.net E2E Test Automation Workshop**. In this 10-hour workshop, participants learn the essentials of end-to-end (E2E) test automation. This hands-on workshop focuses on:
+
+This project is created as part of the **Techcareer.net E2E Test Automation Workshop**. In this 10-hour workshop, participants learn the essentials of E2E testing, focusing on:
 - Understanding E2E testing concepts.
 - Speeding up automation processes and integrating them into real-world projects.
-- Utilizing testing tools in practical scenarios to enhance efficiency and accuracy in software development.
+- Utilizing testing tools in practical scenarios to enhance efficiency and accuracy.
 
 ## 🗂️ Project Structure
-🗂️ **Project Structure**  
-- **src/main/java**: Main automation scripts  
-  - **base**: Core setup (e.g., `BaseTest`, `BaseLibrary`)
-  - **pages**: Page Object Model structure (e.g., `LoginPage`, `HomePage`)
-- **src/test/java**: Test cases (e.g., `LoginTests`, `RegisterTests`)
+
+```
+src
+├── main
+│   ├── java
+│   │   ├── base
+│   │   │   ├── BaseLibrary.java
+│   │   │   ├── BaseTest.java
+│   │   │   └── Data.java
+│   │   └── pages
+│   │       ├── HomePage.java
+│   │       ├── LoginPage.java
+│   │       ├── MainPage.java
+│   │       └── RegisterPage.java
+├── test
+│   └── java
+│       ├── LoginTests.java
+│       └── RegisterTests.java
+└── pom.xml
+```
 
 ## 📥 Installation
 1. Clone the repository:
@@ -42,8 +58,24 @@ allure serve
 
 ```
 ## 🔧 Configuration
+Dependencies
+ The pom.xml file manages project dependencies and plugins. Key dependencies include:
+Selenium WebDriver for browser automation.
+TestNG and JUnit for testing framework support.
+Allure TestNG for reporting.
+AspectJ Weaver for AOP (Aspect-Oriented Programming) support.
+Maven handles the automatic downloading and configuration of these dependencies.
 
-pom.xml: Manages dependencies and plugins.
+## 📊 Allure Reports and Jenkins Integration
+This project utilizes **Allure** for creating detailed test execution reports. Allure reports provide insights into test results, including passed, failed, and skipped test cases. Reports can be generated and viewed locally using:
+
+```bash
+# Generate Allure report
+allure serve
+```
+
+For CI/CD, the project is compatible with **Jenkins**. Jenkins can automate test runs, generate Allure reports after each build, and provide a historical view of test stability, which is essential for maintaining high software quality standards.
+
 
 ##🛠️ Troubleshooting
 
