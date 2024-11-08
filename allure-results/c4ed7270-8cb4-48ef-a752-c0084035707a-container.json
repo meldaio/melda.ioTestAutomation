@@ -1,1 +1,0 @@
-{"uuid":"c4ed7270-8cb4-48ef-a752-c0084035707a","name":"base.BaseTest.openBrowser","children":["75ae4f07-416a-426e-b561-a6bfe1a3b0c9"],"description":"","befores":[{"name":"openBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1731023867124,"stop":1731023874420}],"afters":[],"start":1731023867123,"stop":1731023874420}
