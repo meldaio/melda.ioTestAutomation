@@ -77,15 +77,15 @@ allure serve
 For CI/CD, the project is compatible with **Jenkins**. Jenkins can automate test runs, generate Allure reports after each build, and provide a historical view of test stability, which is essential for maintaining high software quality standards.
 
 
-##🛠️ Troubleshooting
+## 🛠️ Troubleshooting
 
 Ensure Maven dependencies are installed.
 Check Jenkins and Allure setup for CI/CD integration.
 
-##👥 Contributors
+## 👥 Contributors
 [bilaydacevik]([https://github.com/ChatGTHB](https://github.com/Bilaydacevik))
 
-##📜 License
+## 📜 License
 This project is licensed under the MIT License.
 
    
