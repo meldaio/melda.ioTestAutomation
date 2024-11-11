@@ -9,10 +9,6 @@
 ## 📖 Overview
 This repository is dedicated to Melda.io's end-to-end (E2E) test automation, leveraging **Java**, **Selenium**, **TestNG**, and **Allure** to improve the efficiency and reliability of software testing.
 
-This project is created as part of the **Techcareer.net E2E Test Automation Workshop**. In this 10-hour workshop, participants learn the essentials of E2E testing, focusing on:
-- Understanding E2E testing concepts.
-- Speeding up automation processes and integrating them into real-world projects.
-- Utilizing testing tools in practical scenarios to enhance efficiency and accuracy.
 
 ## 🗂️ Project Structure
 
